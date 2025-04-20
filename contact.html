@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HealthHub-Contact</title>
+  <link rel="icon" type="image/png" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark-mode");
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="tips.html">Tips</a>
+      <a href="contact.html">Contact</a>
+      <button onclick="toggleDarkMode()">🌓</button>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Get in touch with a Health Coach</h2>
+    <form class="card">
+      <label>Name:<br><input type="text" required></label><br>
+      <label>Email:<br><input type="email" required></label><br>
+      <label>Message:<br><textarea rows="4" required></textarea></label><br>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</body>
+</html>
